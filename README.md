@@ -1,6 +1,7 @@
 ## The official implementation of "Resource-Efficient Learned Image Compression via Asymmetric Cross-Band Modeling"
 ---
 <img src="images/Overall architecture.png" width="1200">
+
 ## Training
 ---
 If you want to train the network on the Flicker2W dataset, please use the following instructions: Single gpu for train:
