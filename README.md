@@ -2,6 +2,17 @@
 ---
 <img src="images/Overall architecture.png" width="1200">
 
+## Repository Structure
+---
+```bash
+.
+├── compressai/models
+│   ├── __init__.py
+│   ├── tic_light.py          # main model definition (mambalic_model)
+├── train.py                 # training script
+├── test.py                  # evaluation script
+```
+
 ## Training
 ---
 If you want to train the network on the Flicker2W dataset, please use the following instructions: Single gpu for train:
