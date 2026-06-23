@@ -8,7 +8,7 @@
 .
 ├── compressai/models
 │   ├── __init__.py
-│   ├── tic_light.py          # main model definition (mambalic_model)
+│   ├── tic_light.py          # main model definition
 ├── train.py                 # training script
 ├── test.py                  # evaluation script
 ```
