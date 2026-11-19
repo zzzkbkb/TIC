@@ -18,7 +18,7 @@
 If you want to train the network on the Flicker2W dataset, please use the following instructions: Single gpu for train:
 
 ```bash
-python train.py --model tic_light --dataset /d/Downloads/flicker2W --epoch 500 --seed 42 --batch-size 16 --N 128 --M 192 --cuda
+python train.py --model tic_light --dataset /d/Downloads/flicker2W --epoch 1000 --seed 42 --batch-size 16 --N 128 --M 192 --cuda
 ```
 
 Testing on Kodak24
