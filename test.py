@@ -53,7 +53,7 @@ def collect_images(rootpath: str) -> List[str]:
 
 def psnr(a: torch.Tensor, b: torch.Tensor) -> float:
     mse = F.mse_loss(a, b).item()
-    return -10 * math.log10(mse) + 0.6
+    return -10 * math.log10(mse)
 
 
 def read_image(filepath: str) -> torch.Tensor:
